@@ -2,16 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Ifpa.ApiClient</AssemblyName>
-    <RootNamespace>Ifpa.ApiClient</RootNamespace>
+    <AssemblyName>Ifpa.Models</AssemblyName>
+    <RootNamespace>Ifpa.Models</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\IfpaModels\IfpaModels.csproj" />
   </ItemGroup>
 
 </Project>
