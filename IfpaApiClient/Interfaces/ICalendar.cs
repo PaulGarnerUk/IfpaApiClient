@@ -6,10 +6,11 @@ using System.Text;
 
 namespace Ifpa.ApiClient.Interfaces
 {
-	public interface IPlayer
+	public interface ICalendar
 	{
-		ApiResponse<PlayerModel> Get(int playerId);
+		ApiResponse<CalendarModel> GetActive(string countryName = null);
 
-		ApiResponse<PlayerResultsModel> GetResults(int playerId);
+		ApiResponse<CalendarModel> GetHistory(string countryName = null);
+
 	}
 }

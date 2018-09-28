@@ -14,12 +14,5 @@ namespace Ifpa.ApiClient.Interfaces
 		ApiResponse<T> Get<T>(string apiPath, string jsonRequest = null);
 
 		Task<ApiResponse<T>> GetAsync<T>(string apiPath, string jsonRequest = null);
-
-		/*
-		ApiResponse<T> Post<T>(string apiPath, object request = null);
-
-		Task<ApiResponse<T>> PostAsync<T>(string apiPath, object request = null);
-*/
-		event EventHandler AuthenticationRequestHandler;
 	}
 }
