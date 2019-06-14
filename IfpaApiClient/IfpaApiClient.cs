@@ -11,7 +11,7 @@ namespace Ifpa.ApiClient
 		private Lazy<IPlayer> player;
 		private Lazy<ICalendar> calendar;
 
-		public IfpaApiClient(string baseUrl, string apiKey)
+		public IfpaApiClient(string apiKey, string baseUrl = "https://api.ifpapinball.com/v1/")
 		{
 			this.RestClient = new RestClient(baseUrl, apiKey);
 
@@ -23,7 +23,7 @@ namespace Ifpa.ApiClient
 
 		public ICalendar Calendar => this.calendar.Value;
 
-		#region Private/interal implementation
+		#region Private/internal implementation
 
 		internal IRestClient RestClient { get; set; }
 

@@ -13,6 +13,12 @@ namespace Ifpa.ApiClient.Endpoints
 		{
 		}
 
+		public ApiResponse<CalendarModel> Get(int calendarId)
+		{
+			// https://api.ifpapinball.com/v1/calendar/123?api_key=RNDOAMGNAJTGQWKQ
+			return base.RestClient.Get<CalendarModel>($"{CalendarEndpoint}/{calendarId}");
+		}
+
 		public ApiResponse<CalendarModel> GetActive(string countryName = null)
 		{
 			// https://api.ifpapinball.com/v1/calendar/active?api_key=RNDOAMGNAJTGQWKQ&country=Sweden

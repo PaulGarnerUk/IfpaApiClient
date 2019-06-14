@@ -8,6 +8,8 @@ namespace Ifpa.ApiClient.Interfaces
 {
 	public interface ICalendar
 	{
+		ApiResponse<CalendarModel> Get(int calendarId);
+
 		ApiResponse<CalendarModel> GetActive(string countryName = null);
 
 		ApiResponse<CalendarModel> GetHistory(string countryName = null);
