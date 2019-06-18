@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfpaApiClient", "IfpaApiClient\IfpaApiClient.csproj", "{92C56E7B-3CEF-468A-8089-1EC27A08D974}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfpaModels", "IfpaModels\IfpaModels.csproj", "{BDC001CF-C5D0-437B-A3A8-8AC324258E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemo", "ApiDemo\ApiDemo.csproj", "{D6C6D565-31DD-49F5-AD4E-940CC73509E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemo", "ApiDemo\ApiDemo.csproj", "{4A282113-4390-4A50-9791-EFC7940AE651}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{BDC001CF-C5D0-437B-A3A8-8AC324258E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDC001CF-C5D0-437B-A3A8-8AC324258E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDC001CF-C5D0-437B-A3A8-8AC324258E16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6C6D565-31DD-49F5-AD4E-940CC73509E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6C6D565-31DD-49F5-AD4E-940CC73509E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6C6D565-31DD-49F5-AD4E-940CC73509E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6C6D565-31DD-49F5-AD4E-940CC73509E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A282113-4390-4A50-9791-EFC7940AE651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A282113-4390-4A50-9791-EFC7940AE651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A282113-4390-4A50-9791-EFC7940AE651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A282113-4390-4A50-9791-EFC7940AE651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

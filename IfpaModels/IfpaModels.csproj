@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Ifpa.Models</AssemblyName>
     <RootNamespace>Ifpa.Models</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-alpha</Version>
+    <Description>Model wrappers for JSON objects returned by IFPA API</Description>
+    <Authors>Paul Garner</Authors>
+    <Company>Wizco</Company>
   </PropertyGroup>
 
   <ItemGroup>

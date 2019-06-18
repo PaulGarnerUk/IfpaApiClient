@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Ifpa.ApiClient</AssemblyName>
     <RootNamespace>Ifpa.ApiClient</RootNamespace>
+    <Authors>Paul Garner</Authors>
+    <Company>Wizco</Company>
+    <Description>A portable library to interact with the REST API provided by the IFPA (Internation Pinball Flipper Association).  Allows the developer to make simple method calls to retrieve player/tournament/calendar data etc.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0-alpha</Version>
   </PropertyGroup>
 
   <ItemGroup>

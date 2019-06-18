@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Ifpa.Models.CustomConverters;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -33,7 +34,7 @@ namespace Ifpa.Models
 		public string Initals { get; set; }
 
 		[JsonProperty("age")]
-		public int Age { get; set; }
+		public int? Age { get; set; }
 
 		[JsonProperty("excluded_flag")]
 		[JsonConverter(typeof(BooleanJsonConverter))]

@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Ifpa.Models.CustomConverters;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -67,9 +68,10 @@ namespace Ifpa.Models
 		public decimal RatingsValue { get; set; }
 
 		[JsonProperty("efficiency_rank")]
+		[JsonConverter(typeof(EfficiencyRankJsonConverter))]
 		public int EfficiencyRank { get; set; }
 
 		[JsonProperty("efficiency_value")]
-		public decimal EfficiencyValue { get; set; }
+		public decimal? EfficiencyValue { get; set; }
 	}
 }

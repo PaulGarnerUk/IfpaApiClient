@@ -6,6 +6,12 @@ namespace Ifpa.Models
 	[JsonObject("player")]
 	public class PlayerModel
 	{
+		// Not a big fan of the way IFPA have modelled things.
+		// Might consider flattening this, so that all PlayerInformation and PlayerStats are available directly here.  
+		// This might mean having two versions of the models. This one that matches what IFPA return, and another for my remapped models
+		// (The remapped models could possibly reference the ifpa models privately, and remap like...
+		//		public int CurrentRank => Stats.CurrentRank;
+
 		[JsonProperty("player")]
 		public PlayerInformationModel Information { get; set; }
 
